@@ -11,3 +11,5 @@ read -p "Qual é o nome do terceiro diretório que deseja listar?" diretorio3
 ls -1 $diretorio1
 ls -1 $diretorio2
 ls -1 $diretorio3
+
+echo "Diretórios Listados"

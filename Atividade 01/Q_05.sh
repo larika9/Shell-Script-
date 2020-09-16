@@ -9,3 +9,5 @@ mkdir -p ${PASTA} 2>/dev/null
 ls -1 ./ >> /bin/DATA
 
 cp *  $PASTA
+
+echo "Verificar no diretório /bin/DATA"

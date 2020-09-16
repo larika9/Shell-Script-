@@ -1,7 +1,6 @@
 #!/bin/bash
 
 echo "Questão 08: Escreva um script que imprime os conceitos de substituição de variáveis e de substituição de shell, com exemplos."
-
 echo -e 'A variável $0 mostra o comando executado, seu valor é '${0}''
 echo -e 'A variável $1 equivale ao primeiro argumento fornecido, seu valor é '${1}''
 echo -e 'A variável $$ equivale ao número de execução do processo, seu valor é '$$''
