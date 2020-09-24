@@ -6,3 +6,8 @@ Exemplo:
 ./pow.sh 4 2
 16"
 
+read -p "Digite o valor da váriavel 1" a
+read -p "Digite o valor da váriavel 2" b 
+
+echo $ ((a**b))
+
