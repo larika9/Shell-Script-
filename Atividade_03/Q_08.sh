@@ -8,4 +8,4 @@ Exemplo de sequência:
 como saber o retorno (sucesso/falha) dos comandos sort e tr?
 "
 
-echo "Resposta: "
+echo "Resposta: Então, tentei encontrar o máximo na internet, mas não achei nada que pudesse explicar, então vou pelo que entendi referente ao assunto. Acredito que o jeito de saber o retorno de sucesso/falha desses comandos e enviado os mesmos para algum arquivo que quando recebesse o resultado já guardava a informação do $? e também o imprimia. "

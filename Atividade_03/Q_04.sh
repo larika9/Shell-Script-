@@ -9,4 +9,3 @@ c = ls $3 | wc -l
 ["${a}" -gt "${b}" -o "$ {b}"-gt "${c}"] && echo " "$a" "$b" e "$c"
 ["${b}" -gt "${a}" -o "$ {a}"-gt "${c}"] && echo " "$b" "$a" e "$c"
 ["${c}" -gt "${b}" -o "$ {c}"-gt "${a}"] && echo " "$c" "$b" e "$a"
-

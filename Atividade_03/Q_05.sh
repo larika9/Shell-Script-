@@ -4,4 +4,4 @@ echo "5º - Escreva um script que recebe o nome de um arquivo como argumento de 
 
 arquivo = $1
 linhas = (($a > 5))
-ls arquivo &> /dev/null && linhas && echo "GOOD" || echo "FAIL"
+ls -l arquivo &> /dev/null && linhas && echo "GOOD" || echo "FAIL"
