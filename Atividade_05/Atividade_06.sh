@@ -7,3 +7,16 @@ print(“Rapi Hellow Uin!”)
 
 Lembre de dar permissão de execução para cada arquivo gerado.
 "
+#part.1º#
+touch teste.py
+vim teste.py
+#####DENTRO DO VIM#####
+#!/usr/bin/env python3
+print(“Rapi Hellow Uin!”)
+#####SAI DO VIM######
+for i in {A..Z}
+do
+    mkdir $i; cp teste.py /$i ; cd /$i ; mv teste.py $i.py 
+    chmod +x $i.py
+done
+
