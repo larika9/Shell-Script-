@@ -10,3 +10,11 @@ echo "5º - Considere o seguinte arquivo ips.txt:
 
 Use um laço while para executar 4 pings para cada ip. Liste os IPs que não foram possíveis acessar.
 "
+
+while read a; do
+	echo "DANDO PING EM: ${a}"
+	echo -e "\n"
+	echo -e "\n"
+	ip= ${a}
+	ping -c 4 ${ip}
+done < ips.txt
