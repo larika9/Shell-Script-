@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "4° - Escreva um script que valide as seguintes regras para criação de senha: pelo menos uma letra maiúscula, uma letra minúscula e um número. Validar significa receber uma senha e dizer se esta obedece ao padrão ou não."
