@@ -17,3 +17,8 @@ echo "4 - Considere o seguinte arquivo ips.txt:
 
 Escreva um script para listar apenas os ips sem repetição. Isto é, remover as duplicatas.
 "
+while read a;
+do
+    sort -u $*
+done < ips.txt
+

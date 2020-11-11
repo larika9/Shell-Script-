@@ -20,3 +20,36 @@ abcdefghij
 abcdefghij
 abcdefghij
 "
+
+echo -p "Qual arquivo que deseja ler? " arquivo
+linhas=1
+coluna=0
+condicaolinhas=true
+condicaocolunas=true
+totaldelinhas= $(cat ${arquivo} | wc -l)
+while ${condicaocolunas}; do
+	linhas=1
+	if [ ${colunas -gt 50 ]; 
+    then
+		break;
+	fi
+	    coluna = $(( coluna + 10 ))
+	    coluna_auxiliar = $(( coluna - 9 ))
+	    echo 'Exibindo as colunas de ${coluna_auxiliar} a ${coluna}'
+
+	while ${condicaolinhas}; 
+    do
+		if [ ${linhas} -gt ${totaldelinhas} ];then
+			break
+		fi
+		cat ${arquivo} | head -${linhas} | cut -c ${colunaaux} -${coluna} > comeco
+		cat comeco | tail - 1 > colunasparamostrar
+		cat colunasparamostrar
+		linhas=$(( linhas + 1 ))
+	done
+	read -p "Aperte ENTER para continuar: " con
+	if [ ${con} != "" ] &>/dev/null ;then
+		condicaocolunas=false
+	fi
+done
+rm comeco colunasparamostrar
