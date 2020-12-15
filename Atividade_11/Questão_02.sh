@@ -13,3 +13,8 @@ Ranking Meninos Ranking Meninas
 8 Matheus 8 Valentina
 9 Rafael 9 Giovanna
 10 Heitor 10 MariaEduarda"
+
+read -p "Qual arquivo contém a lista dos dez nomes mais comuns no Brasil? " arquivo_nomes
+awk 'NR>=2 {print $2}' < ${arquivo_nomes} > arquivo_meninos
+awk 'NR>=2 {print $4}' < ${arquivo_nomes} > arquivo_meninas
+echo "O arquivo com os nomes dos meninos está em arquivo_meninos e arquivo com os nomes das meninas em arquivo_meninas"
