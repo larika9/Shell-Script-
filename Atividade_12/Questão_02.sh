@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "2º- Considere o seguinte arquivo:
+echo "2º - Considere o seguinte arquivo:
 
 	A 10
 	B 20
