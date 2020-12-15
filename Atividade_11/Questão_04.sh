@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Dado um arquivo com todos os downloads efetuados pelos usuários no último mês, deseja-se
+echo "4º- Dado um arquivo com todos os downloads efetuados pelos usuários no último mês, deseja-se
 totalizar quanto cada usuário baixou. Segue o formato do arquivo:
 Nelson www.google.com.br 250
 Arr445 www.testes.com/dbz.wmv 20050

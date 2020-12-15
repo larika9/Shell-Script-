@@ -1,5 +1,5 @@
 #!/bin/bash
-echo ". Uma empresa possui uma política de criação de nomes de usuários: dado o nome completo da
+echo "10º- Uma empresa possui uma política de criação de nomes de usuários: dado o nome completo da
 pessoa, usar o primeiro nome seguido pela primeira letra de cada sobrenome (ou conectivo da
 dos de). Exemplo: Thiago Gouveia da Silva ganha o nome de usuário ThiagoGdS, enquanto
 Josias de Pádua Maranhão Ayres Junior, ganha o nome de usuário JosiasdPMAJ. Foi enviada

@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Considere o seguinte arquivo de entrada com a lista dos dez nomes mais comuns no Brasil para
+echo "2º- Considere o seguinte arquivo de entrada com a lista dos dez nomes mais comuns no Brasil para
 Meninos e Meninas. Pede-se que o arquivo seja separado em dois, um apenas para meninos e
 outro para meninas.
 Ranking Meninos Ranking Meninas

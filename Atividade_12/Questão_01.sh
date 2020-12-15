@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "1º - Escreva um script que peça para o usuário digitar um conjunto de números na mesma linha, separados por espaço (podem ser vários números, o usuário decide quantos) e exiba o menor deles."
