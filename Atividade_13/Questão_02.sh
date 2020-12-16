@@ -10,3 +10,11 @@ echo "2º - Considere o seguinte arquivo:
 
 Escreva um script que importe as funções da questão anterior e use-as para encontrar o menor e o maior número do arquivo apresentado acima.
 "
+while read questao_02; do
+
+maior=$(maior_numero)
+menor=$(menor_numero)
+igual=$(numeros_iguais) 
+done < Questão_01.sh
+
+echo "O Maior número desse arquivo é $maior , já o Menor número é $menor , existe números iguais como por exemplo $numeros_iguais"
